@@ -1,0 +1,5 @@
+replicaCount: 2
+image:
+  repository: <docker-hub-username>/sample-app
+  tag: latest
+  pullPolicy: Always
